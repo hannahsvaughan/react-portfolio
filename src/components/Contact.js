@@ -1,14 +1,13 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-// import { Card, Form } from "react-bootstrap";
 
 function Contact () {
   return (
     <div className="container mt-5">
-      <h2 className="mb-3">Contact Me</h2>
+      <h2 className="mb-2 display-3 d-flex justify-content-center">Contact Me</h2>
       <form>
         <div className="mb-3">
-          <label className="form-label" htmlFor="name">
+          <label className="form-label" >
             Name
           </label>
           <input className="form-control" type="text" id="name" required />
@@ -28,6 +27,7 @@ function Contact () {
         <Button className="btn btn-danger" type="submit"> Submit
         </Button>
       </form>
+      <br></br>
     </div>
   )
 }

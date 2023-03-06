@@ -7,8 +7,7 @@ function AboutMe() {
       <Card.Body>
         <Card.Title className="mb-2 display-3 text-center">About Me</Card.Title>
         <p>
-          I am passionate about web development and skilled in HTML, CSS, and
-          JavaScript. The projects in my portfolio demonstrate my skills as a
+          I am passionate about web development and skilled in HTML, CSS, JavaScript, React and more. The projects in my portfolio below demonstrate my skills as a
           junior web developer.
         </p>
         <p>
