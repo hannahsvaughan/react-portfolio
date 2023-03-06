@@ -8,16 +8,16 @@ const Project = (props) => {
     return (
         <Card className="mt-3 mb-5 mx-3 p-1">
             <Card.Img variant="top" src={image} />
-            <Card.Body>
-                <Card.Title>{title}</Card.Title>
-                <Card.Text>{description}</Card.Text>
-                <Button 
-                variant="dark"
+            <Card.Body align="middle">
+                <Card.Title align="middle">{title}</Card.Title>
+                <Card.Text align="middle">{description}</Card.Text>
+                <Button
+                variant="secondary"
                 href={githubLink}
                 rel="noreferrer"
                 target="_blank"
                 > GitHub Link
-                </Button>
+                </Button> {" "}
             </Card.Body>
         </Card>
     );
