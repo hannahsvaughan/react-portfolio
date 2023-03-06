@@ -6,18 +6,18 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 function HomeScreen() {
   return (
-    <Stack gap={2} align="middle">
-      <div>
+    <Stack align="middle">
         <div
           className="bg-light border, banner-container"
-          style={{ lineHeight: "500px" }}
+          style={{ lineHeight: "100px", display: "flex", flexDirection: "column", fontSize: "25px"}}
         >
           Hi There! I'm Hannah Vaughan.{" "}
-          <Button variant="outline-secondary" href={Portfolio}>
+          <div>
+          <Button variant="outline-secondary" size="lg" onClick={Portfolio}>
             View My Portfolio
           </Button>{" "}
+          </div>
         </div>
-      </div>
       <div
         className="bg-light border"
         style={{
@@ -30,17 +30,17 @@ function HomeScreen() {
       >
         <a href="https://github.com/hannahsvaughan" target="blank">
           <li>
-            <FaGithub color="black" />
+            <FaGithub color="black" size="50px" />
           </li>
         </a>
         <a href="https://www.linkedin.com/hannahsvaughan" target="blank">
           <li>
-            <FaLinkedin color="black" />
+            <FaLinkedin color="black" size="50px" />
           </li>
         </a>
         <a href="https://www.instagram.com" target="blank">
           <li>
-            <FaInstagram color="black" />
+            <FaInstagram color="black" size="50px"/>
           </li>
         </a>
       </div>
