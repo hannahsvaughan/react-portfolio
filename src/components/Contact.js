@@ -24,7 +24,7 @@ function Contact () {
           </label>
           <textarea className="form-control" id="message" required />
         </div>
-        <Button className="btn btn-danger" type="submit"> Submit
+        <Button className="btn btn-secondary" type="submit"> Submit
         </Button>
       </form>
       <br></br>

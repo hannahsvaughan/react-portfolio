@@ -1,10 +1,19 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import Profile from "../Images/profilepic.jpeg"
 
 function AboutMe() {
   return (
     <Card className="mx-3 my-4">
       <Card.Body className="text-center">
+        <div style={{ display: "flex", justifyContent: "center"}}>
+          <img
+          src={Profile}
+          alt="Avatar"
+          className="image-container rounded mr-3 mb-3"
+          style={{ width: "250px", border: "2px solid #222222"}}
+          ></img>
+        </div>
         <Card.Title className="mb-2 display-3 text-center">About Me</Card.Title>
         <p>
           I am passionate about web development and skilled in HTML, CSS, JavaScript, React and more. The projects in my portfolio below demonstrate my skills as a

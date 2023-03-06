@@ -1,6 +1,5 @@
 import Stack from "react-bootstrap/Stack";
 import Button from "react-bootstrap/Button";
-import Portfolio from "./Project";
 import React from "react";
 
 function Home() {
@@ -8,26 +7,25 @@ function Home() {
     <div>
       <Stack align="middle">
         <div
-          className="bg-light border, banner-container"
+          className="bg-light border"
           style={{
-            lineHeight: "500px",
+            lineHeight: "250px",
             display: "flex",
             flexDirection: "column",
-            fontSize: "25px",
+            fontSize: "50px",
           }}
         >
           {" "}
           Hi There! I'm Hannah Vaughan.
-          <div>
+          
             <Button
               variant="outline-secondary"
               size="lg"
-              width="auto"
-              onClick={Portfolio}
+              className="mx-auto"
             >
               View My Portfolio
             </Button>{" "}
-          </div>
+            <br></br>
         </div>
       </Stack>
     </div>
