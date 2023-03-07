@@ -1,7 +1,5 @@
-// import Stack from "react-bootstrap/Stack";
 import Button from "react-bootstrap/Button";
 import React from "react";
-import Brick from "../Images/brickbackground.jpeg"
 
 function Home () {
   return (
